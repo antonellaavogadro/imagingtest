@@ -1,0 +1,14 @@
+$schema: "1.0"
+name: adhoctordertest-winget
+image: MicrosoftWindowsDesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365
+tasks:
+    - name: winget
+      parameters:
+        package: OpenJS.NodeJS
+    - name: winget
+      parameters:
+        package: GitHub.GitHubDesktop
+userTasks:
+  - name: winget
+    parameters:
+      package: Oracle.JavaRuntimeEnvironment
